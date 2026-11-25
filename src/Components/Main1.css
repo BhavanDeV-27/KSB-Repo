@@ -1,0 +1,30 @@
+#Main_container{
+    width:100vw;
+    height: 100vh;
+    background-color: rgb(12, 146, 235);
+    position: relative;
+}
+#Products{
+    width: 50vw;
+    height: 80vh;
+    background-color: #efffff;
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    overflow-y: scroll;
+    
+}
+#Main-image{
+    height: 100vh;
+    width: 50vw;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+  
+
+}
+#Main-image img{
+    height: 100%;
+   
+
+}
