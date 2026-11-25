@@ -20,9 +20,15 @@ function Main1({setCardItems}) {
         <div id='Main_container'>
             <div id='Products'>
             <Navigation/>
+
             <Products properties={Product1} changeFunction={addtoCart}/>
             <br /><br />
             <Products properties={Product2} changeFunction={addtoCart}/>
+            <br /><br />
+            <Products properties={Product1} changeFunction={addtoCart}/>
+            <br /><br />
+            <Products properties={Product2} changeFunction={addtoCart}/>
+            
             </div>
             <div id='Main-image'>
                 <img src="https://static.vecteezy.com/system/resources/previews/008/472/914/non_2x/beautiful-young-asian-woman-with-shopping-bags-file-png.png" alt="" />
